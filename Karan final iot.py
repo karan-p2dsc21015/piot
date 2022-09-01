@@ -48,7 +48,7 @@ PH = 5.0
 TURBUDITY = 0.5
 CHLORINE = 2
 DISSOLVED_OXYGEN = 6.5
-MSG_TXT = '{{"PH": {PH},"TURBUDITY": {TURBUDITY},"CHLORINE":{CHLORINE},"DISSOLVED_OXYGEN": {DISSOLVED_OXYGEN}}}'
+MSG_TXT = '{{"ph": {ph},"turbudity": {turbudity},"chlorine":{chlorine},"dissolved_oxygen": {dissolved_oxygen}}}'
 
 def iothub_client_init():
     # Create an IoT Hub client
